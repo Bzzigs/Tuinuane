@@ -16,11 +16,11 @@
         <div class="navdiv">
     
     
-            <div class="logo"><img id="logopic" src="logo.png" alt="logo"><a href="home.php">CHOGORIA TUINUANE</a> </div>
+            <div class="logo"><img id="logopic" src="logo.png" alt="logo"><a href="index.php">CHOGORIA TUINUANE</a> </div>
     
     
             <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li></li>
                 <li></li>
                 <li><a href="about.php">About</a></li>
