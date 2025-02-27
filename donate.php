@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,46 +15,51 @@
 <body>
     <nav class="navbar">
         <div class="navdiv">
-            <div class="logo"><img id="logopic" src="logo.png" alt="logo"><a href="index.php">CHOGORIA TUINUANE</a></div>
+    
+    
+            <div class="logo"><img id="logopic" src="logo.png" alt="logo"><a href="home.php">CHOGORIA TUINUANE</a> </div>
+    
+    
             <ul>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li></li>
                 <li></li>
                 <li><a href="about.php">About</a></li>
                 <li></li>
                 <li></li>
                 <li><a href="donate.php">Donate</a></li>
+
             </ul>
         </div>
-    </nav>
+      </nav>
 
-    <main>
-        <div id="enteramount">Enter amount</div>
-        <div id="enterphonenumb">Enter phone number</div>
+      <main>
+
+      </main>
+      <form class="row g-3" action="./stk_initiate.php" method="POST">
+      <div id="doncontainer">
+        <button id="don" type="submit" class="btn btn-success" name="submit" value="submit">Donate</button>
+        
+        </div>
         <div id="sendtxt">Send donation via mpesa!</div>
+        <input type="text" class="form-control" name="phone" placeholder="+254..." id="phonenumb">
+        <input id="amount"type="text" class="form-control" name="amount" placeholder="Enter Amount" >
+        <div id="enteramount">Enter amount</div>
 
-        <form class="row g-3" action="./stk_initiate.php" method="POST">
-            <div class="col-12">
-                <label for="amount" class="form-label">Amount</label>
-                <input type="text" class="form-control" name="amount" placeholder="Enter Amount" id="amount">
-            </div>
-            <div class="col-12">
-                <label for="phonenumb" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" name="phone" placeholder="+254..." id="phonenumb">
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-success" name="submit" value="submit">Donate</button>
-            </div>
-        </form>
-    </main>
+        <div id="enterphonenumb">Enter phone number</div>
+      </form>
+      <h6 id="credits">Designed and developed by Victor Mwenda</h6>
 
-    <h6 id="credits">Designed and developed by Victor Mwenda</h6>
-    <h5 id="contact">Contact us</h5>
-    <ol id="contactdetails">
+      <h5 id="contact">Contact us</h5>
+      <ol id="contactdetails">
         <li><a href="mailto:chogoriatuinuane@gmail.com">Email: Chogoriatuinuane@gmail.com</a></li>
         <br>
-        <li><a href="tel:+254712345678">Phone: 0712345678</a></li>
-    </ol>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-</body>
+        <li ><a href="tel:+254712345678">Phone: 0712345678</a></li>
+      </ol>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    ></script>
+
 </html>
