@@ -203,9 +203,9 @@ li a:active{
 #contact{
     border: none;
     font-size: 2vw;
-    position: absolute;
-    top: 46vw;
-    left: 76vw;
+    position: fixed; /* Stick to the bottom */
+    bottom: 7vw; /* Align to the bottom of the viewport */
+    left: 73vw;
     width: 13vw;
     height: auto;
     text-align: center;
@@ -219,8 +219,8 @@ li a:active{
 
 #contactdetails{
     border: none;
-    position: absolute;
-    top: 53vw;
+    position: fixed; /* Stick to the bottom */
+    bottom: -1vw; /* Align to the bottom of the viewport */
     left: 67vw;
     width: 28vw;
     height: 10vw;
@@ -326,4 +326,110 @@ li a:active{
     }
     
 }
+@media screen and (max-width: 800px) {
+    #contact{
+        border: none;
+        font-size: 2vw;
+        position: fixed; /* Stick to the bottom */
+        bottom: 9vw; /* Align to the bottom of the viewport */
+        left: 73vw;
+        width: 13vw;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        font-style: normal;
+        background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+        border-radius: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #contactdetails{
+        border: none;
+        position: fixed; /* Stick to the bottom */
+        bottom: 2vw; /* Align to the bottom of the viewport */
+        left: 67vw;
+        width: 28vw;
+        height: 10vw;
+        margin: 0;
+        color: #000000;
+      
+        padding: 0;
+    
+    
+    }
+
+}
+
+@media screen and (max-width: 545px) {
+    #contact{
+        border: none;
+        font-size: 2vw;
+        position: fixed; /* Stick to the bottom */
+        bottom: 12vw; /* Align to the bottom of the viewport */
+        left: 73vw;
+        width: 13vw;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        font-style: normal;
+        background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+        border-radius: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #contactdetails{
+        border: none;
+        position: fixed; /* Stick to the bottom */
+        bottom: 5vw; /* Align to the bottom of the viewport */
+        left: 67vw;
+        width: 28vw;
+        height: 10vw;
+        margin: 0;
+        color: #000000;
+      
+        padding: 0;
+    
+    
+    }
+
+}
+
+@media screen and (max-width: 407px) {
+    #contact{
+        border: none;
+        font-size: 2vw;
+        position: fixed; /* Stick to the bottom */
+        bottom: 15vw; /* Align to the bottom of the viewport */
+        left: 73vw;
+        width: 13vw;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        font-style: normal;
+        background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+        border-radius: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    #contactdetails{
+        border: none;
+        position: fixed; /* Stick to the bottom */
+        bottom: 8vw; /* Align to the bottom of the viewport */
+        left: 67vw;
+        width: 28vw;
+        height: 10vw;
+        margin: 0;
+        color: #000000;
+      
+        padding: 0;
+    
+    
+    }
+
+}
+
+
 
