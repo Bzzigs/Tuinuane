@@ -22,104 +22,28 @@ html, body{
 
 }
 
-.navbar{
-    border: solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-width: 2px;
-    text-align: center;
-    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    position:sticky;
-    top:0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: auto;
-    z-index: 1000;
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-
-    
-
-.navdiv{
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-}
-#logopic{
-    height: 50px;
-    width: 50px;
-    float:inline-start;
-    filter:brightness(120%);
-  
-   
-}
-
-.logo a{
-    font-size: 15px;
-    font-weight: 600;
-    color: aliceblue;
-    position: relative;
-    top: 15px;
-    text-shadow: 1px 1px 0px  grey;
-    color: white;
-}
-li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-    
-}
-li a{
-    color: aliceblue;
-    font-size: 12px;
-    font-family: "Rubik Glitch", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    
-}
-li a:hover{
-    text-decoration: underline;
-    text-decoration-color: gray
-}
-li a:active{
-    text-decoration: underline;
-    text-decoration-color: grey;
-}
-.logo a:hover{
-    text-shadow: 1px 1px 0px  grey;
-    
-}
-.logo a:active{
-    text-shadow: 0px 0px 0px  grey;
-}
-
-#intro{
+#introabout{
     border: none;
-    font-size: 15px;
+    font-size: 3.5vw;
     width: 100px;
-    position: relative;
-    top: 25px;
-    left: 40px;
-    text-align: center;
-    text-decoration: underline double;
+    position: absolute;
+    top: 3vw;
+    left: 34vw;
+    text-decoration: underline;
+    text-decoration-color: rgb(214, 72, 96);
+    text-decoration-style: double;
+    font-family: "Abel", serif;
 
 }
 
-#info{
+#infoabout{
     border: solid;
-    font-size: 15px;
-    width: 300px;
-    height: 355px;
-    position: relative;
-    top: 25px;
-    left: 40px;
+    font-size: 3.2vw;
+    width: 81vw;
+    height: 65vw;
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
     padding: 5px;
     border-radius: 8px;
     border-width: 8px;
@@ -128,16 +52,17 @@ li a:active{
     border-top-color: green;
     border-bottom-color: lime;
     text-align: center;
+    padding-top: 4vw;
 
 }
 
 #Motto{
     border: none;
-    font-size: 18px;
+    font-size: 3.2vw;
     position: absolute;
-    top: 40px;
-    left: 400px;
-    width: 200px;
+    top: 92vw;
+    left: 33vw;
+    width: 21vw;
     text-align: center;
     border-radius: 10px;
     font-family: "Rubik Vinyl", serif;
@@ -150,59 +75,66 @@ li a:active{
 
 #Mottodetails{
     border: none;
-    font-size: 15px;
+    font-size: 3.2vw;
+    border-width: 0.4vw;
     position: absolute;
-    top: 75px;
-    left: 400px;
-    width: 200px;
+    top: 97vw;
+    left: 24vw;
+    width: 38vw;
     text-align: center;
     font-family: "Abel", serif;
     font-weight: 400;
     font-style: normal;
     border-bottom-style: dashed;
     border-left-style: dashed;
+    border-color: deeppink;
+    border-radius: 12px;
 }
 
 #Mission{
     border: none;
-    font-size: 18px;
+    font-size: 3.2vw;
     position: absolute;
-    top: 130px;
-    left: 400px;
-    width: 200px;
+    top: 108vw;
+    left: 33vw;
+    width: 21vw;
     text-align: center;
     border-radius: 10px;
     font-family: "Rubik Vinyl", serif;
     font-weight: bold;
     font-style: normal;
     background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 12px;
 }
 
 #Missiondetails{
     border: none;
-    font-size: 15px;
+    font-size: 3.2vw;
+    border-width: 0.4vw;
     position: absolute;
-    top: 170px;
-    left: 400px;
-    width: 200px;
+    top: 113vw;
+    left: 24vw;
+    width: 47vw;
     text-align: center;
-    border-left-style: dashed;
     text-align: left;
     padding-left: 10px;
     font-family: "Abel", serif;
     font-weight: 400;
     font-style: normal;
     border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-color: deeppink;
+    border-radius: 12px;
 
 }
 
 #Vision{
     border: none;
-    font-size: 18px;
+    font-size: 3.2vw;
     position: absolute;
-    top: 310px;
-    left: 400px;
-    width: 200px;
+    top: 140vw;
+    left: 33vw;
+    width: 21vw;
     text-align: center;
     border-radius: 10px;
     font-family: "Rubik Vinyl", serif;
@@ -215,29 +147,33 @@ li a:active{
 
 #visiondetails{
     border: none;
-    font-size: 15px;
+    font-size: 3.2vw;
+    border-width: 0.4vw;
     position: absolute;
-    top: 340px;
-    left: 400px;
-    width: 200px;
+    top: 145vw;
+    left: 24vw;
+    width: 38vw;
     text-align: center;
-    border-left-style: dashed;
     text-align: left;
     padding-left: 10px;
     font-family: "Abel", serif;
     font-weight: 400;
     font-style: normal;
     border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-color: deeppink;
+    border-radius: 12px;
+
 
 }
 
 #thanks{
     border: none;
-    font-size: 15px;
+    font-size: 3.2vw;
     position: absolute;
-    top: 460px;
-    left: 40px;
-    width: 200px;
+    top: 177vw;
+    left: 5vw;
+    width: 29vw;
     text-align: center;
     font-weight: 400;
     font-style: normal;
@@ -248,12 +184,12 @@ li a:active{
 
 #thanksdetails{
     border: none;
-    font-size: 15px;
+    font-size: 3.2vw;
     position: absolute;
-    top: 480px;
-    left: 40px;
-    width: 200px;
-    height: 200px;
+    top: 182vw;
+    left: 5vw;
+    width: 53vw;
+    height: 45vw;
     text-align: center;
     font-family: "Abel", serif;
     font-weight: 400;
@@ -261,65 +197,86 @@ li a:active{
     margin-bottom: 0px;
 }
 
-#credits{
+#creditsabout{
     border: none;
-    font-size: 10px;
-    position: absolute;
-    top: 630px;
-    left: 420px;
-    width: 200px;
+    font-size: 2vw;
+    position: absolute; /* Stick to the bottom */
+    top: 230vw; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Full width */
     text-align: center;
     font-weight: 400;
     font-style: normal;
     background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
     font-family: "Dancing Script", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    padding: 10px 0; /* Add some padding for better appearance */
+    
+    
 }
 
-#contact{
+#contactabout{
     border: none;
-    font-size: 10px;
-    position: absolute;
-    top: 560px;
-    left: 470px;
-    width: 80px;
+    font-size: 2vw;
+    position: absolute; /* Stick to the bottom */
+    top: 218vw; /* Align to the bottom of the viewport */
+    left: 73vw;
+    width: 13vw;
+    height: auto;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
-    border-radius: 8px;
+    border-radius: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-#contactdetails{
+#contactdetailsabout{
     border: none;
-    font-size: 10px;
-    position: absolute;
-    top: 580px;
-    left: 410px;
-    width: 200px;
-    height: 100px;
-    margin-left: 0;
+    position: absolute; /* Stick to the bottom */
+    top: 222.5vw; /* Align to the bottom of the viewport */
+    left: 67vw;
+    width: 28vw;
+    height: 10vw;
+    margin: 0;
     color: #000000;
-    
+  
+    padding: 0;
 
 
 }
-#contactdetails li, #contactdetails a {
+#contactdetailsabout li, #contactdetailsabout a {
     color: black; 
-    font-family: "Abel", serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
+    font-size: 1.5vw;
     font-style: normal;
     
-}
+    
 
-#box1{
-    border: none;
-    height: 100px;
-    width: 100px;
-    position:absolute;
-    left: 9%;
     
 }
+
+#contactdetailsabout li:first-child, #contactdetailsabout a:first-child{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+@media screen and (min-width: 500px) {
+    #contactabout{
+        top: 218vw;
+    }
+    #contactdetailsabout{
+        top: 225vw;
+    }
+
+
+
+}
+
+
+
+

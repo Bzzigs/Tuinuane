@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chogoria tuinuane - About</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch&family=Rubik+Vinyl&display=swap" rel="stylesheet">
@@ -32,11 +32,11 @@
             <div id="sendtxt">Send donation!</div>
             <input id="amount" placeholder="eg...100">
             <div id="enteramount">Enter amount</div>
-            <button id="don" class="intaSendPayButton" data-amount="10" data-currency="KES">Donate</button>
+            <button id="don2" class="intaSendPayButton" data-amount="10" data-currency="KES">Donate</button>
             <script>
                 document.getElementById('amount').addEventListener('input', function() {
                     var amount = this.value;
-                    document.getElementById('don').setAttribute('data-amount', amount);
+                    document.getElementById('don2').setAttribute('data-amount', amount);
                 });
 
                 new window.IntaSend({
@@ -49,9 +49,9 @@
             </script>
         </div>
 
-        <h6 id="credits">Designed and developed by Victor Mwenda</h6>
-        <h5 id="contact">Contact us</h5>
-        <ol id="contactdetails">
+        <h6 id="creditsdonate">Designed and developed by Victor Mwenda</h6>
+        <h5 id="contactdonate">Contact us</h5>
+        <ol id="contactdetailsdonate">
             <li><a href="mailto:chogoriatuinuane@gmail.com">Email: Chogoriatuinuane@gmail.com</a></li>
             <br>
             <li><a href="tel:+254712345678">Phone: 0712345678</a></li>
