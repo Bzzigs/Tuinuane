@@ -198,49 +198,21 @@
 
 }
 
-@media screen and (max-height: 1524px) {
-    #creditsdonate{
+@media screen and (max-height: 420px) and (orientation:landscape) {
+    #contactdetailsdonate{
         position: absolute;
-        top: 53vw;/* Align to the bottom of the viewport */
+        top: 59vw;
+    }
+    #contactdonate{
+        position: absolute;
+        top: 52vw;
         height: 2.5vw;
-        
 
     }
-    #contactdonate{
-        position: absolute;
-        bottom: -53vw;
-
-        
-
-    }
-    #contactdetailsdonate{
-        position: absolute;
-        top: 51vw;
-    }
-
-
-}
-@media screen and (min-height: 1524px) {
     #creditsdonate{
-        border: none;
-        font-size: 2vw;
-        position: fixed; /* Stick to the bottom */
-        bottom: -4.7vw;/* Align to the bottom of the viewport */
-
-
-        
-    }
-    #contactdonate{
         position: absolute;
-        bottom: -53vw;
-
-        
-
+        top: 63vw;
+        height: 2vw;
     }
-    #contactdetailsdonate{
-        position: absolute;
-        top: 51vw;
-    }
-
 
 }
