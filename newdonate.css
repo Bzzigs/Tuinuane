@@ -95,7 +95,7 @@
     border: none;
     font-size: 2vw;
     position: fixed; /* Stick to the bottom */
-    bottom: -4.7vw;/* Align to the bottom of the viewport */
+    bottom: -5vw;/* Align to the bottom of the viewport */
     left: 0; /* Align to the left of the viewport */
     width: 100%; /* Full width */
     text-align: center;
@@ -179,24 +179,7 @@
 }
 
 
-@media screen and (max-width: 580px) {
-    #contactdetailsdonate{
-        bottom: 5vw;
-    }
-    #contactdonate{
-        bottom: 12vw;
-    }
 
-}
-@media screen and (max-width: 440px) {
-    #contactdetailsdonate{
-        bottom: 8vw;
-    }
-    #contactdonate{
-        bottom: 14vw;
-    }
-
-}
 
 @media screen and (max-height: 420px) and (orientation:landscape) {
     #contactdetailsdonate{
@@ -211,7 +194,7 @@
     }
     #creditsdonate{
         position: absolute;
-        top: 63vw;
+        top: 69vw;
         height: 2vw;
     }
 
@@ -252,7 +235,7 @@
 
 }
 
-@media screen and (max-height: 820px){
+@media screen and (max-height: 420px) and (orientation:landscape) {
     #contactdetailsdonate{
         position: absolute;
         top: 59vw;
@@ -265,8 +248,37 @@
     }
     #creditsdonate{
         position: absolute;
-        top: 63vw;
+        top: 69vw;
         height: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    
+    #contactdonate{
+        bottom: 12vw; /* Align to the bottom of the viewport */
+    }
+    
+    #contactdetailsdonate{
+        bottom: 5vw; /* Align to the bottom of the viewport */
+
+    
+    
+    }
+
+}
+@media screen and (max-width: 445px) {
+    
+    #contactdonate{
+        bottom: 17vw; /* Align to the bottom of the viewport */
+    }
+    
+    #contactdetailsdonate{
+        bottom: 10vw; /* Align to the bottom of the viewport */
+
+    
+    
     }
 
 }
