@@ -216,3 +216,38 @@
     }
 
 }
+
+@media screen and (max-width: 580px) {
+    #doncontainer{
+        width: 64vw;
+        height: 34vw;
+
+    }
+    #sendtxt{
+        font-weight: 500;
+        font-size: 3.8vw;
+        top: 3.2vw;
+    }
+    
+    #amount{
+        width: 17vw;
+        font-size: 2.5vw;
+        
+    
+    }
+    #enteramount{
+        position: absolute;
+        top: 11.3vw;
+        left: 25vw;
+        font-size: 2.5vw;
+        font-family: "Abel", serif;
+        font-weight: 500;
+    
+    }
+    #don2{
+        font-size: 3vw;
+    
+    }
+
+
+}
