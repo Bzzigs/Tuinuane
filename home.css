@@ -409,3 +409,18 @@ li a:active{
     }
 
 }
+
+@media screen and (max-height: 1450px) {
+    #credits{
+        bottom: -23vw;/* Align to the bottom of the viewport */
+
+    }
+    #contact{
+        bottom: -8vw; /* Align to the bottom of the viewport */
+    }
+    #contactdetails{
+        bottom: -16vw; /* Align to the bottom of the viewport */
+    }
+
+
+}

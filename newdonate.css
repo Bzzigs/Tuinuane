@@ -198,3 +198,26 @@
 
 }
 
+@media screen and (max-height: 1524px) {
+    #creditsdonate{
+        position: absolute;
+        top: 53vw;/* Align to the bottom of the viewport */
+        height: 2.5vw;
+        
+
+    }
+    #contactdonate{
+        position: absolute;
+        bottom: -53vw;
+
+        
+
+    }
+    #contactdetailsdonate{
+        position: absolute;
+        top: 51vw;
+    }
+
+
+}
+
