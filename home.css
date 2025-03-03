@@ -346,8 +346,9 @@ li a:active{
     }
     
     #done{
-        top: 50vw;
+        top: 50.5vw;
         font-size: 3.9vw;
+        left: 48vw;
 
 
     }
@@ -355,7 +356,7 @@ li a:active{
         top: 47.5vw;
         font-size: 2.5vw;
         width: 20vw;
-        left: 17vw;
+        left: 23vw;
         height: 4vw;
 
     }

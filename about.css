@@ -52,7 +52,6 @@ html, body{
     border-top-color: green;
     border-bottom-color: lime;
     text-align: center;
-    padding-top: 4vw;
     padding-bottom: 4vw;
 
 }
@@ -289,6 +288,16 @@ html, body{
         font-size: 3vw;
 
     }
+
+}
+@media screen and (max-height: 420px) and (orientation:landscape) {
+    #thanks{
+        font-size: 3vw;
+
+    }
+
+
+
 
 }
 

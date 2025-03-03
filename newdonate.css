@@ -251,3 +251,22 @@
 
 
 }
+
+@media screen and (max-height: 820px){
+    #contactdetailsdonate{
+        position: absolute;
+        top: 59vw;
+    }
+    #contactdonate{
+        position: absolute;
+        top: 52vw;
+        height: 2.5vw;
+
+    }
+    #creditsdonate{
+        position: absolute;
+        top: 63vw;
+        height: 2vw;
+    }
+
+}
