@@ -410,7 +410,7 @@ li a:active{
 
 }
 
-@media screen and (max-height: 1450px) {
+@media screen and (max-height: 420px) and (orientation:landscape) {
     #credits{
         bottom: -27vw;/* Align to the bottom of the viewport */
 
