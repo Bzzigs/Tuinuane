@@ -52,6 +52,9 @@ html, body{
     border-top-color: green;
     border-bottom-color: lime;
     text-align: center;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+
 }
 
 #Motto{
@@ -272,6 +275,16 @@ html, body{
     }
 
 
+
+}
+
+@media screen and (max-width: 680px) {
+    #infoabout{
+        font-size: 3.2vw;
+        width: 81vw;
+        height: 65vw;
+
+    }
 
 }
 
