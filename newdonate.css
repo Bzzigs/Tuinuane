@@ -220,4 +220,27 @@
 
 
 }
+@media screen and (min-height: 1524px) {
+    #creditsdonate{
+        border: none;
+        font-size: 2vw;
+        position: fixed; /* Stick to the bottom */
+        bottom: -4.7vw;/* Align to the bottom of the viewport */
 
+
+        
+    }
+    #contactdonate{
+        position: absolute;
+        bottom: -53vw;
+
+        
+
+    }
+    #contactdetailsdonate{
+        position: absolute;
+        top: 51vw;
+    }
+
+
+}
