@@ -1,9 +1,10 @@
+
 #doncontainer{
     border: solid;
     width: 60vw;
     height: 35vw;
     position:absolute;
-    top: 10vw;
+    top: 3vw;
     left: 12vw;
     padding: 5px;
     border-radius: 8px;
@@ -94,7 +95,7 @@
 #creditsdonate{
     border: none;
     font-size: 2vw;
-    position: fixed; /* Stick to the bottom */
+    position: absolute; /* Stick to the bottom */
     bottom: -5vw;/* Align to the bottom of the viewport */
     left: 0; /* Align to the left of the viewport */
     width: 100%; /* Full width */
@@ -113,7 +114,7 @@
 #contactdonate{
     border: none;
     font-size: 2vw;
-    position: fixed; /* Stick to the bottom */
+    position: absolute; /* Stick to the bottom */
     bottom: 10vw; /* Align to the bottom of the viewport */
     left: 76vw;
     width: 13vw;
@@ -129,7 +130,7 @@
 
 #contactdetailsdonate{
     border: none;
-    position: fixed; /* Stick to the bottom */
+    position: absolute; /* Stick to the bottom */
     bottom: 2vw; /* Align to the bottom of the viewport */
     left: 67vw;
     width: 30vw;
@@ -158,6 +159,12 @@
         top:  30vw;
 
     }
+    #contactdonate{
+        bottom: 14vw; /* Align to the bottom of the viewport */
+    }
+    #contactdetailsdonate{
+        bottom: 2vw; /* Align to the bottom of the viewport */
+    }
 
 }
 @media screen and (max-width: 442px) {
@@ -181,24 +188,7 @@
 
 
 
-@media screen and (max-height: 420px) and (orientation:landscape) {
-    #contactdetailsdonate{
-        position: absolute;
-        top: 59vw;
-    }
-    #contactdonate{
-        position: absolute;
-        top: 52vw;
-        height: 2.5vw;
 
-    }
-    #creditsdonate{
-        position: absolute;
-        top: 69vw;
-        height: 2vw;
-    }
-
-}
 
 @media screen and (max-width: 580px) {
     #doncontainer{
@@ -235,68 +225,28 @@
 
 }
 
-@media screen and (max-height: 420px) and (orientation:landscape) {
-    #contactdetailsdonate{
-        position: absolute;
-        top: 59vw;
-    }
-    #contactdonate{
-        position: absolute;
-        top: 52vw;
-        height: 2.5vw;
-
-    }
+@media screen and (max-height: 920px)  {
     #creditsdonate{
-        position: absolute;
-        top: 69vw;
-        height: 2vw;
+        bottom: -9vw;/* Align to the bottom of the viewport */
+
     }
-
-}
-
-@media screen and (max-width: 580px) {
-    
     #contactdonate{
-        bottom: 12vw; /* Align to the bottom of the viewport */
+        bottom: 9vw; /* Align to the bottom of the viewport */
     }
-    
     #contactdetailsdonate{
-        bottom: 5vw; /* Align to the bottom of the viewport */
-
-    
-    
+        bottom: 1vw; /* Align to the bottom of the viewport */
     }
+
 
 }
-@media screen and (max-width: 445px) {
-    
+@media screen and (max-width: 680px) {
     #contactdonate{
         bottom: 17vw; /* Align to the bottom of the viewport */
     }
-    
     #contactdetailsdonate{
         bottom: 10vw; /* Align to the bottom of the viewport */
-
-    
-    
     }
 
 }
-@media screen and (max-height: 880px) {
-    #contactdetailsdonate{
-        position: absolute;
-        top: 59vw;
-    }
-    #contactdonate{
-        position: absolute;
-        top: 52vw;
-        height: 2.5vw;
 
-    }
-    #creditsdonate{
-        position: absolute;
-        top: 69vw;
-        height: 2vw;
-    }
 
-}
