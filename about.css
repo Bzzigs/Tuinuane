@@ -40,7 +40,7 @@ html, body{
     border: solid;
     font-size: 3.2vw;
     width: 81vw;
-    height: 60vw;
+    height: 65vw;
     position: absolute;
     top: 10vw;
     left: 5vw;
@@ -279,8 +279,9 @@ html, body{
 
 @media screen and (max-width: 680px) {
     #infoabout{
-        font-size: 3.13vw;
-
+        font-size: 3vw;
+        width: 81vw;
+        height: 65vw;
 
     }
     #thanks{
