@@ -280,5 +280,19 @@
     }
 
 }
+@media screen and (max-height: 420px) and (orientation:landscape) {
+    #creditsdonate{
+        bottom: -27vw;/* Align to the bottom of the viewport */
+
+    }
+    #contactdonate{
+        bottom: -13vw; /* Align to the bottom of the viewport */
+    }
+    #contactdetailsdonate{
+        bottom: -21vw; /* Align to the bottom of the viewport */
+    }
+
+
+}
 
 
