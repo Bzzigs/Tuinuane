@@ -96,3 +96,12 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+@media screen and (max-height: 420px) and (orientation:landscape) {
+  #creditsgallery{
+      bottom: -27vw;/* Align to the bottom of the viewport */
+
+  }
+
+
+
+}
