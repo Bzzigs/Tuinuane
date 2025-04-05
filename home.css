@@ -461,3 +461,52 @@ li a:active{
 
 
 }
+
+@media screen and (max-width: 322px) {
+
+
+    li {
+        margin-right: -2px; /* Adjust the value as needed for smaller screens */
+    }
+
+    li:last-child {
+        margin-right: 0px; /* Remove margin from the last item */
+    }
+    #contact{
+        bottom: 19vw; /* Align to the bottom of the viewport */
+    }
+    #contactdetails{
+        bottom: 12vw; /* Align to the bottom of the viewport */
+    }
+    
+
+
+}
+@media screen and (min-width:1300px){
+    #logopic{
+        height: 70px;
+        width: 70px;
+        float:inline-start;
+        filter:brightness(120%);
+        position: relative;
+        left: -1vw;  
+    }
+    .logo a{
+        font-size: 20px;
+        font-weight: bold;
+        color: aliceblue;
+        position: relative;
+        top: 23px;
+        text-shadow: 1px 1px 0px  grey;
+        color: white;
+    }
+    li a{
+        color: aliceblue;
+        font-size: 17px;
+        font-family: "Rubik Glitch", serif;
+        font-weight: normal;
+        font-style: normal;
+        color: white;
+        
+    }
+}

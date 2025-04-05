@@ -1,4 +1,36 @@
+#Gallery{
+    border: solid;
+    position: absolute;
+    right: 4vw;
+    top: 4vw;
+    border-radius: 14px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-color :fuchsia;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: 3s linear 0s infinite running myscale;
+    font-size: 2.5vw;
+    
 
+    
+}
+#Gallery:active{
+    border-color :fuchsia;
+
+}
+
+#Gallery:hover{
+
+    
+    animation: 3s linear 0s infinite running mycolor;
+
+}
+
+@keyframes myscale{
+    50%{transform: scale(0.8, 0.8);}
+}
 #doncontainer{
     border: solid;
     width: 60vw;
