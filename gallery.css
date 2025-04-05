@@ -98,7 +98,7 @@
 }
 @media screen and (max-height: 420px) and (orientation:landscape) {
   #creditsgallery{
-      bottom: -22vw;/* Align to the bottom of the viewport */
+      bottom: -19vw;/* Align to the bottom of the viewport */
 
   }
 
