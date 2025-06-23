@@ -199,13 +199,30 @@ html, body{
     margin-bottom: 0px;
 }
 
+#footerabout{
+    position: absolute;
+    top: 230vw;
+    border: solid;
+    height: 19vw;
+    width: 100%;
+    background-color:rgb(230, 201, 202);
+    border-radius: 20px;
+    border-color: rgb(252, 147, 225);
+}
+#logopic2about{
+    position: absolute;
+    bottom: 2vw;
+    height: 15vw;
+    width: 15vw;
+    left: 10%;
+}
 #creditsabout{
     border: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
     position: absolute; /* Stick to the bottom */
-    top: 230vw; /* Align to the bottom of the viewport */
-    left: 0; /* Align to the left of the viewport */
-    width: 100%; /* Full width */
+    bottom: -2vw; /* Align to the bottom of the viewport */
+    right: 5vw; /* Align to the left of the viewport */
+    width: 25%; /* Full width */
     text-align: center;
     font-weight: 400;
     font-style: normal;
@@ -222,8 +239,8 @@ html, body{
     border: none;
     font-size: 2vw;
     position: absolute; /* Stick to the bottom */
-    top: 218vw; /* Align to the bottom of the viewport */
-    left: 73vw;
+    bottom: 8vw; /* Align to the bottom of the viewport */
+    left: 45%;
     width: 13vw;
     height: auto;
     text-align: center;
@@ -238,8 +255,8 @@ html, body{
 #contactdetailsabout{
     border: none;
     position: absolute; /* Stick to the bottom */
-    top: 222.5vw; /* Align to the bottom of the viewport */
-    left: 67vw;
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 32%;
     width: 28vw;
     height: 10vw;
     margin: 0;
@@ -267,17 +284,7 @@ html, body{
 }
 
 
-@media screen and (min-width: 500px) {
-    #contactabout{
-        top: 218vw;
-    }
-    #contactdetailsabout{
-        top: 225vw;
-    }
 
-
-
-}
 
 @media screen and (max-width: 680px) {
     #infoabout{
@@ -290,6 +297,17 @@ html, body{
         font-size: 3vw;
 
     }
+    #footerabout{
+        height: 23vw;
+    }
+    #contactabout{
+        bottom: 12vw;
+
+    }
+    #contactdetailsabout{
+        bottom: 4vw;
+    }
+
 
 }
 @media screen and (max-height: 420px) and (orientation:landscape) {

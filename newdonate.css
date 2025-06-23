@@ -1,3 +1,14 @@
+#bodydonate{
+    margin: 0;
+    background-color:rgb(230, 201, 202);
+    margin-bottom: 0px;
+    background-image: url(help6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
 #Gallery{
     border: solid;
     position: absolute;
@@ -124,80 +135,13 @@
     font-weight: 500;
 
 }
-#creditsdonate{
-    border: none;
-    font-size: 2vw;
-    position: absolute; /* Stick to the bottom */
-    bottom: -5vw;/* Align to the bottom of the viewport */
-    left: 0; /* Align to the left of the viewport */
-    width: 100%; /* Full width */
-    text-align: center;
-    font-weight: 400;
-    font-style: normal;
-    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
-    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
-    font-family: "Dancing Script", serif;
-    font-optical-sizing: auto;
-    padding: 10px 0; /* Add some padding for better appearance */
-    
-    
-}
 
-#contactdonate{
-    border: none;
-    font-size: 2vw;
-    position: absolute; /* Stick to the bottom */
-    bottom: 10vw; /* Align to the bottom of the viewport */
-    left: 76vw;
-    width: 13vw;
-    height: auto;
-    text-align: center;
-    font-weight: 500;
-    font-style: normal;
-    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
-    border-radius: 12px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-#contactdetailsdonate{
-    border: none;
-    position: absolute; /* Stick to the bottom */
-    bottom: 2vw; /* Align to the bottom of the viewport */
-    left: 67vw;
-    width: 30vw;
-    height: 10vw;
-    margin: 0;
-    color: #000000;
-  
-    padding: 0;
-
-
-}
-#contactdetailsdonate li, #contactdetailsdonate a {
-    color: black; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 1.5vw;
-    font-style: normal;
-    
-    
-
-    
-}
 
 @media screen and (max-width: 680px) {
     #doncontainer{
         top:  30vw;
 
     }
-    #contactdonate{
-        bottom: 14vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetailsdonate{
-        bottom: 2vw; /* Align to the bottom of the viewport */
-    }
-
 }
 @media screen and (max-width: 442px) {
     #enteramount{
@@ -257,57 +201,6 @@
 
 }
 
-@media screen and (max-height: 920px)  {
-    #creditsdonate{
-        bottom: -9vw;/* Align to the bottom of the viewport */
-
-    }
-    #contactdonate{
-        bottom: 9vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetailsdonate{
-        bottom: 1vw; /* Align to the bottom of the viewport */
-    }
-
-
-}
-@media screen and (max-width: 680px) {
-    #contactdonate{
-        bottom: 17vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetailsdonate{
-        bottom: 10vw; /* Align to the bottom of the viewport */
-    }
-
-}
-@media screen and (max-height: 420px) and (orientation:landscape) {
-    #creditsdonate{
-        bottom: -27vw;/* Align to the bottom of the viewport */
-
-    }
-    #contactdonate{
-        bottom: -13vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetailsdonate{
-        bottom: -21vw; /* Align to the bottom of the viewport */
-    }
-
-
-}
-@media screen and (max-height: 720px)  {
-    #creditsdonate{
-        bottom: -27vw;/* Align to the bottom of the viewport */
-
-    }
-    #contactdonate{
-        bottom: -13vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetailsdonate{
-        bottom: -21vw; /* Align to the bottom of the viewport */
-    }
-
-
-}
 
 
 

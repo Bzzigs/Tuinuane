@@ -1,22 +1,31 @@
-body{
+#home{
     margin: 0;
     background-color:rgb(230, 201, 202);
     margin-bottom: 0px;
+    background-image: url(help1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    
+
+  
 
 }
 
-main{
-    position: relative;
-}
+
 
 
 html, body{
     width: 100%;
     height: 100%;
-    margin: 0;
-    background-color:rgb(230, 201, 202);
     padding: 0;
     overflow-x: hidden;
+
+}
+main{
+    position: relative;
 }
 
 *{
@@ -217,13 +226,34 @@ li a:active{
  
 }
 
+#logopic2{
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 10%;
+  
+   
+}
+#footer{
+    position: absolute;
+    bottom: -2vw;
+    border : solid;
+    width: 100%;
+    height: 19vw;
+    background-color:rgb(230, 201, 202);
+    border-radius: 20px;
+    border-color: rgb(252, 147, 225);
+    
+    
+}
+
 #credits{
     border: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
     position: absolute; /* Stick to the bottom */
-    bottom: -5vw;/* Align to the bottom of the viewport */
-    left: 0; /* Align to the left of the viewport */
-    width: 100%; /* Full width */
+    bottom: 2vw;/* Align to the bottom of the viewport */
+    width: 25%; /* Full width */
+    right: 5vw; /* Center the element */
     text-align: center;
     font-weight: 400;
     font-style: normal;
@@ -241,7 +271,7 @@ li a:active{
     font-size: 2vw;
     position: absolute; /* Stick to the bottom */
     bottom: 10vw; /* Align to the bottom of the viewport */
-    left: 73vw;
+    left: 40%;
     width: 13vw;
     height: auto;
     text-align: center;
@@ -257,7 +287,7 @@ li a:active{
     border: none;
     position: absolute; /* Stick to the bottom */
     bottom: 2vw; /* Align to the bottom of the viewport */
-    left: 67vw;
+    left: 32%;
     width: 28vw;
     height: 10vw;
     margin: 0;
@@ -403,24 +433,6 @@ li a:active{
 }
 
 
-@media screen and (max-width: 580px) {
-    #contactdetails{
-        bottom: 5vw;
-    }
-    #contact{
-        bottom: 12vw;
-    }
-
-}
-@media screen and (max-width: 440px) {
-    #contactdetails{
-        bottom: 8vw;
-    }
-    #contact{
-        bottom: 14vw;
-    }
-
-}
 @media screen and (max-width: 370px) {
     .navdiv {
         display: flex;
@@ -444,23 +456,32 @@ li a:active{
         width: 46vw;
         height: 3.5vw;
     }
-
-}
-
-@media screen and (max-height: 420px) and (orientation:landscape) {
-    #credits{
-        bottom: -27vw;/* Align to the bottom of the viewport */
-
+    #footer{
+        position: absolute;
+        bottom: -4vw;
+        height: 30vw;
+ 
     }
     #contact{
-        bottom: -13vw; /* Align to the bottom of the viewport */
+        position:absolute;
+        bottom:20vw;
     }
     #contactdetails{
-        bottom: -21vw; /* Align to the bottom of the viewport */
+        position: absolute; /* Stick to the bottom */
+        bottom: 14vw;
+    }
+    #credits{
+        position:absolute;
+        bottom: 3vw;
+    }
+    #logopic2{
+        position: absolute;
+        bottom: 12vw;
     }
 
-
 }
+
+
 
 @media screen and (max-width: 322px) {
 
@@ -472,15 +493,7 @@ li a:active{
     li:last-child {
         margin-right: 0px; /* Remove margin from the last item */
     }
-    #contact{
-        bottom: 19vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetails{
-        bottom: 12vw; /* Align to the bottom of the viewport */
-    }
     
-
-
 }
 @media screen and (min-width:1300px){
     #logopic{
@@ -509,16 +522,7 @@ li a:active{
         color: white;
         
     }
-}
-@media screen and (max-height:710px){
-    #credits{
-        bottom: -27vw;/* Align to the bottom of the viewport */
 
-    }
-    #contact{
-        bottom: -13vw; /* Align to the bottom of the viewport */
-    }
-    #contactdetails{
-        bottom: -21vw; /* Align to the bottom of the viewport */
-    }
+
 }
+

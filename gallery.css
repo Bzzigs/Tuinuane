@@ -1,3 +1,17 @@
+#bodygallery {
+  margin: 0;
+  background-color:rgb(230, 201, 202);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  
+
+
+
+}
+
 #creditsgallery{
     border: none;
     font-size: 2vw;
@@ -23,7 +37,7 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  top: 1vw;
+  top: 2%;
   margin: auto;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 
@@ -96,11 +110,26 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+  @media screen and (max-width: 680px) {
+    .slideshow-container {
+        position: relative;
+        top: 15%;
+
+
+  
+}
+
+  
 @media screen and (max-height: 420px) and (orientation:landscape) {
   #creditsgallery{
       bottom: -17vw;/* Align to the bottom of the viewport */
 
   }
+
+
+
+
+}
 
 
 
